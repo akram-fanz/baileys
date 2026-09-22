@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-bot-pairing",
+  "version": "1.0.0",
+  "description": "WhatsApp bot using @vibersmoon/baileys with pairing code authentication",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "vibersmoon",
+    "pairing-code"
+  ],
+  "author": "Akram",
+  "license": "MIT",
+  "dependencies": {
+    "@vibersmoon/baileys": "^1.0.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc14"
+  }
+}
