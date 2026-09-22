@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-bot-js",
+  "version": "1.0.0",
+  "description": "Simple WhatsApp bot using @vibersmoon/baileys",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "vibersmoon"
+  ],
+  "author": "Akram",
+  "license": "MIT",
+  "dependencies": {
+    "@vibersmoon/baileys": "^1.0.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc14"
+  }
+}
